@@ -1,7 +1,7 @@
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    url.host = "www.wikidata.org";
+    url.host = "en.wikipeida.org";
  
     console.log('Accessing URL:', url.href);
     return fetch(url, {
